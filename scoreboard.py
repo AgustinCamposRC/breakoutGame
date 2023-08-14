@@ -11,7 +11,7 @@ class Scoreboard(Turtle):
         self.hideturtle()
         self.goto(START_POSITION)
         self.points = 0
-        self.Lifes = 0
+        self.lifes = 3
         self.update_score()
     
 
@@ -24,7 +24,7 @@ class Scoreboard(Turtle):
         self.goto(START_POSITION)
         self.write(f'Brick Points: {self.points}',align='left',font=FONT)
         self.goto(-230, 290)
-        self.write(f'Lifes: {self.Lifes}',align='center',font=FONT)
+        self.write(f'Lifes: {self.lifes}',align='center',font=FONT)
 
     def game_over(self):
         self.goto(0,0)

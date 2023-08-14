@@ -25,7 +25,6 @@ class BreakOut_Game(Turtle):
     def __init__(self):
         
         self.game_is_on = True
-        self.lifes = 3
 
         self.screen = Screen()
         self.screen.setup(width=580, height=700)
@@ -43,7 +42,6 @@ class BreakOut_Game(Turtle):
         self.ball = Ball()
         self.bricks_manager = BreakManager()
         self.scoreboard = Scoreboard()
-        self.scoreboard.lifes = self.lifes
 
         self.paddle = Paddle((0,-320))
         self.screen.onkey(self.paddle.go_right,'d')
