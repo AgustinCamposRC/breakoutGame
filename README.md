@@ -1,7 +1,8 @@
 # breakoutGame
 My own version of the atari game breakout, which is ba around a lsedayer of bricks that line up the top third of the screen and the goal is to destroy them all by repeatedly bouncing a ball on a paddle against them.
 
-![image](https://github.com/AgustinCamposRC/breakoutGame/assets/130417572/d0366970-e762-4288-a843-a1649df993df)
+![image](https://github.com/AgustinCamposRC/breakoutGame/assets/130417572/215685bc-6a62-420b-b6e1-70d2e6623dbe)
+
 
 ## Gameplay
 
